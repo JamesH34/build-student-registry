@@ -1,4 +1,4 @@
-import pytest
+
 from student_registry import Student
 
 def test_student_initialization():
@@ -6,6 +6,7 @@ def test_student_initialization():
     assert student.get_name == "Alice"
     assert student.get_age == 13
     assert student.get_grade == "12th"
+
 
 def test_student_name_setter():
     student = Student("Alice")
@@ -38,3 +39,7 @@ def test_invalid_grade_setter():
     assert student.get_grade == "12th"
 
 # Write tests for Class methods
+
+
+
+
